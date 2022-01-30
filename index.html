@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="titulo">
+        <p><a href="https://www.aluracursos.com/"><img src="img/alura_Logo.svg" width="3%" height="3%" class="logo"></a></p>
+        <h1>Alura Latam + Oracle ONE </h1>
+        <h2>Primer Challenge</h2>
+    </header>
+
+    <main>
+        <div class="container container-cards">
+            <div class="card">
+                <h2>Solo letras <span>MINUSCULAS</span> y <span>SIN</span> acentos</h2>
+                <div>
+                    <input id="frase" type="text" placeholder="Ingrese el texto aquí">
+                    <button id="encriptar" type="button">Encriptar</button>
+                    <button id="desencriptar" type="button">Desencriptar</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Mensaje Encriptado / Desencriptado:</h2>
+                <div>
+                    <input id="resultado" type="text" readonly>
+                    <button id="copiar" type="button">Copiar</button>
+                    <button id="borrar" type="button">Borrar</button>
+                    <span id="mesaje-copiado" class="escondido">Texto copiado!</span>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="info">
+              <p class="nombre">Oscar Misael Peña Victorino</p>
+              <a class="linkelnd" href="https://www.linkedin.com/in/oscarmisaelpv/"><img src="img/linkelnd.png" width="4%" height="4%"></a>
+              <a class="github" href="https://github.com/openav94"><img src="img/github.svg" width="4%" height="4%"></a>
+              <a class="instagram" href="https://www.instagram.com/oscarmisaelpv/"><img src="img/IG.png" width="4%" height="4%"></a>
+            </div>
+          </footer>
+    </main>
+    <script src="js/code.js"></script>
+</body>
+</html>
